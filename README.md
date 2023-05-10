@@ -10,7 +10,7 @@
 
 ![WechatIMG2](https://github.com/sh0w1ov3/B660M-K-i5-12500-RX6600/assets/33852403/4737144e-d70d-4631-9982-9235704148f7)
 
-CFG Lock解锁：使用OC工具 **modGRUBShell.efi** 填入以下代码解锁：
+CFG Lock解锁OC辅助工具 **modGRUBShell.efi** 
 
 `
 setup_var_cv CpuSetup 0x44 0x01 0x00
