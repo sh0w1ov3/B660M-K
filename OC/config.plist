@@ -206,8 +206,6 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
                 <dict>
-                    <key>#model</key>
-                    <string>AMD Radeon RRO W6600X</string>
                     <key>@0,name</key>
                     <string>ATY,Henbury</string>
                     <key>@1,name</key>
@@ -226,6 +224,8 @@
                     <string>Radeon Pro</string>
                     <key>device_type</key>
                     <string>ATY,HenburyParent</string>
+                    <key>model</key>
+                    <string>AMD Radeon RRO W6600X</string>
                     <key>name</key>
                     <string>ATY,Henbury</string>
                 </dict>
@@ -237,7 +237,7 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>model</key>
-                    <string>UHD Graphics 770</string>
+                    <string>Intel® UHD Graphics 770</string>
                 </dict>
             </dict>
             <key>Delete</key>
