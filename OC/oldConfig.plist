@@ -38,14 +38,6 @@
                     <key>Path</key>
                     <string>SSDT-SBUS-MCHC.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-GPRW.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -61,7 +53,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>TUNfXw==</data>
                     <key>Limit</key>
@@ -91,7 +83,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>TUNfXw==</data>
                     <key>Limit</key>
@@ -806,11 +798,11 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <true/>
+                <false/>
                 <key>ApplePanic</key>
-                <true/>
+                <false/>
                 <key>DisableWatchDog</key>
-                <true/>
+                <false/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -818,9 +810,9 @@
                 <key>LogModules</key>
                 <string>*</string>
                 <key>SysReport</key>
-                <true/>
+                <false/>
                 <key>Target</key>
-                <integer>63</integer>
+                <integer>0</integer>
             </dict>
             <key>Entries</key>
             <array/>
@@ -975,12 +967,8 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
-                    <key>SystemAudioVolume</key>
-                    <data>EA==</data>
                     <key>prev-lang:kbd</key>
                     <string>zh-Hans:0</string>
-                    <key>run-efi-updater</key>
-                    <string>No</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1173,18 +1161,6 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>CrScreenshotDxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
                     <string>AudioDxe.efi</string>
                 </dict>
                 <dict>
@@ -1198,18 +1174,6 @@
                     <false/>
                     <key>Path</key>
                     <string>ResetNvramEntry.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>ToggleSipEntry.efi</string>
                 </dict>
             </array>
             <key>Input</key>
